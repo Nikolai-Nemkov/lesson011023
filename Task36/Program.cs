@@ -1,7 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine();
 Console.WriteLine("Задача № 36");
+Console.WriteLine();
 
-/* Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+/* Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, 
+стоящих на нечётных позициях.
 [3, 7, 23, 12] -> 19
 [-4, -6, 89, 6] -> 0
 */
@@ -9,20 +12,20 @@ Console.WriteLine("Задача № 36");
 
 int size = 4;
 int[] numbers = new int[size];
-FillArrayRandomNumbers(numbers);
+ArrayRandom(numbers);
 PrintArray(numbers);
 
-int sumNumbersEvenIndex = 0;
+int sumNumIndex = 0;   
 
 for (int i = 1; i < numbers.Length; i += 2)
 {
-    sumNumbersEvenIndex += numbers[i];
+    sumNumIndex += numbers[i];
 }
-Console.Write(sumNumbersEvenIndex);
+Console.Write(sumNumIndex);
 
+Console.WriteLine();
 
-
-void FillArrayRandomNumbers(int[] array)
+void ArrayRandom(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -39,3 +42,4 @@ void PrintArray(int[] array)
     Console.WriteLine();
 }
 
+Console.WriteLine();

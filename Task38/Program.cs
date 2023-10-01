@@ -1,15 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine();
 Console.WriteLine("Задача № 38");
-
+Console.WriteLine();
 
 /*
 Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементами массива.
-[3 7 22 2 78] -> 76
+[3 7 22 2 78] -> 76  [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 */
 
 int size = 10;
 int[] numbers = new int[size];
-FillArrayRandomNumbers(numbers);
+ArrayRandomNum(numbers);
 PrintArray(numbers);
 
 int max = numbers[0];
@@ -27,20 +28,23 @@ for (int i = 0; i < numbers.Length; i++)
     }
 }
 
+Console.WriteLine();
+
 Console.WriteLine($"Минимальное число: {min}");
-Console.WriteLine($"Минимальное число: {max}");
+Console.WriteLine($"Максимальное число: {max}");
+
+Console.WriteLine();
+
 Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
 
 
-
-void FillArrayRandomNumbers(int[] array)
+void ArrayRandomNum(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(1, 555);
     }
 }
-
 
 void PrintArray(int[] array)
 {
@@ -50,3 +54,4 @@ void PrintArray(int[] array)
     }
     Console.WriteLine();
 }
+Console.WriteLine();
