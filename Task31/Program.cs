@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Задача №31");
+Console.WriteLine("Задача № 31");
 
 
 // Задача 31: Задайте массив из 12 элементов, заполненный
