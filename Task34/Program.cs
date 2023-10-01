@@ -1,11 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Задача № 34");
 
 /* Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, 
 которая покажет количество чётных чисел в массиве.
 [345, 897, 568, 234] -> 2
 */
-
 
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +19,6 @@ for (int i = 0; i < numbers.Length; i++)
     if (numbers[i] % 2 == 0)
     count++;
 }
-
 
 Console.WriteLine($"количество чётных чисел в массиве -> {count} ");
 
