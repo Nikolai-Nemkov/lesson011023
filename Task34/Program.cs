@@ -8,7 +8,6 @@ Console.WriteLine();
 [345, 897, 568, 234] -> 2 
 */
 
-
 Console.WriteLine("Введите  размер массива");  // kол-во 3х значных цифр.
 int size = Convert.ToInt32(Console.ReadLine());
 

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine();
 Console.WriteLine("Задача № 31");
-
+Console.WriteLine();
 
 // Задача 31: Задайте массив из 12 элементов, заполненный
 // случайными числами из промежутка [-9, 9]. Найдите сумму
@@ -82,3 +83,4 @@ int sumNegativeElem = GetSumNegativeElem(array);
 Console.WriteLine($"Сумма положительных элементов => {sumPositiveElem}");
 Console.WriteLine($"Сумма отрицательных элементов => {sumNegativeElem}");
 
+Console.WriteLine();
