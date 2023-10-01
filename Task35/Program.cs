@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Задача № 35");
 
 
 // Задача 35: Задайте одномерный массив из 123 случайных чисел.
