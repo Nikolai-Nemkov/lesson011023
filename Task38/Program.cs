@@ -2,7 +2,6 @@
 Console.WriteLine();
 Console.WriteLine("Задача № 38");
 Console.WriteLine();
-
 /*
 Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементами массива.
 [3 7 22 2 78] -> 76  [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
@@ -36,7 +35,6 @@ Console.WriteLine($"Максимальное число: {max}");
 Console.WriteLine();
 
 Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
-
 
 void ArrayRandomNum(int[] array)
 {
