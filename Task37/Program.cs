@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Задача № 38");
 
 
 // Задача 37: Найдите произведение пар чисел в одномерном массиве.
@@ -30,7 +30,6 @@ void PrintArray(int[] arr)
     }
     // Console.WriteLine("]");
 }
-
 
 int[] ProductOfNums (int[] arr)
 {
