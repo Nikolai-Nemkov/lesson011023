@@ -9,7 +9,6 @@ Console.WriteLine();
 [-4, -6, 89, 6] -> 0
 */
 
-
 int size = 4;
 int[] numbers = new int[size];
 ArrayRandom(numbers);
