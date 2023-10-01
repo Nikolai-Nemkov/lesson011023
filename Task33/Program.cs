@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Задача № 33");
 
 // Задача 33: Задайте массив. Напишите программу, которая
 // определяет, присутствует ли заданное число в массиве.
