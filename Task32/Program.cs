@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Задача № 32");
 
 // Задача 32: Напишите программу замена элементов
 // массива: положительные элементы замените на
